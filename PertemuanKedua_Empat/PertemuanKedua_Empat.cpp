@@ -3,25 +3,25 @@ using namespace std;
 
 int main()
 {
-	int a, b;
-	string c;
+	int bil1, bil2;
+	string status;
 	srand(time(0));
 
-	a = rand() % 10;
-	b = rand() % 10;
+	bil1 = rand() % 10;
+	bil2 = rand() % 10;
 
-	if (a == b) {
-		c = "Bilangan 1 sama dengan Bilangan 2";
+	if (bil1 == bil2) {
+		status = "Bilangan 1 sama dengan Bilangan 2";
 	}
-	else if (a > b) {
-		c = "Bilangan 1 lebih besar dari Bilangan 2";
+	else if (bil1 > bil2) {
+		status = "Bilangan 1 lebih besar dari Bilangan 2";
 	}
 	else {
-		c = "Bilangan 1 lebih kecil dari bilangan 2";
+		status = "Bilangan 1 lebih kecil dari bilangan 2";
 	}
 
-	cout << "Bilangan pertama : " << a;
-	cout << "Bilangan Kedua : " << b;
-	cout << "Status Bilangan : " << c;
+	cout << "Bilangan pertama : " << bil1;
+	cout << "Bilangan Kedua : " << bil2;
+	cout << "Status Bilangan : " << status;
    
 }
