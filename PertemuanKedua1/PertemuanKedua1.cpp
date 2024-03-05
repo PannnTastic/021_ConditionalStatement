@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdio.h>
+
 
 using namespace std;
 
@@ -20,6 +20,6 @@ int main() {
 	cout << "Nilai Akhir : " << bilangan << endl;
 
 
-	system("pause");
-	clearscr;
+	
+	
 }
