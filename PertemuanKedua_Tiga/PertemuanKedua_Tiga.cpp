@@ -3,19 +3,19 @@ using namespace std;
 
 int main()
 {
-	int a;
+	int bil;
 	srand(time(0));
-	a = rand() % 10;
+	bil = rand() % 10;
 
-	cout << "Nilai Awalnya : " << a;
+	cout << "Nilai Awalnya : " << bil;
 
-	if (a >= 5) {
-		a = 2 * a;
+	if (bil >= 5) {
+		bil = 2 * bil;
 	}
 	else {
-		a = a * 4;
+		bil = bil * 4;
 	}
-	cout << "Nilai Sekarang : " << a;
+	cout << "Nilai Sekarang : " << bil;
 }
 
 
